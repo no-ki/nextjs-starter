@@ -8,10 +8,11 @@
     "npm": "please-use-yarn"
   },
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint --fix",
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
     "format": "prettier --write .",
     "prepare": "husky"
   },

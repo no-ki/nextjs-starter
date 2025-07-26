@@ -7,6 +7,9 @@ node_modules
 # Git
 .git
 
+# Husky
+.husky
+
 # Build outputs
 .next
 out
@@ -27,6 +30,7 @@ yarn-debug.log*
 yarn-error.log*
 
 # Package manager files
+*.lock
 yarn.lock
 package-lock.json
 pnpm-lock.yaml
@@ -42,7 +46,9 @@ pnpm-lock.yaml
 
 # Public assets
 public/*
-!public/*.tsx
+!public/*.js
+!public/*.css
+!public/*.json
 
 # Minified files
 *.min.js
