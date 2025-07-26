@@ -1,0 +1,52 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+.yarn
+
+# Git
+.git
+
+# Build outputs
+.next
+out
+build
+dist
+
+# Testing reports
+coverage/
+
+# Cache
+.cache
+.eslintcache
+*.tsbuildinfo
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Package manager files
+yarn.lock
+package-lock.json
+pnpm-lock.yaml
+
+# Environment files
+.env*
+!.env.example
+
+# Misc
+.DS_Store
+*.pem
+.vercel
+
+# Public assets
+public/*
+!public/*.tsx
+
+# Minified files
+*.min.js
+*.min.css
+
+# Generated types
+next-env.d.ts
